@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+        .static {
+            position: static;
+            background-color: lightcoral;
+            padding: 10px;
+            width: 200px;
+            margin-bottom: 10px;
+        }
+
+        .relative {
+            position: relative;
+            background-color: lightskyblue;
+            padding: 10px;
+            margin-right: 20px;
+            /* 
+                positioning properties:
+                    top, left, bottom, right
+            */
+            top: 20px;
+            left: 50px;
+        }
+
+        .absolute {
+            position: absolute;
+            background-color: lightseagreen;
+            padding: 10px;
+            width: 150px;
+            /* 
+                positioning properties:
+                    top, left, bottom, right
+            */
+            top: 0px;
+            left: 100px;
+        }
+
+        .fixed {
+            position: fixed;
+            background-color: lightgoldenrodyellow;
+            width: 150px;
+            padding: 10px;
+            text-align: center;
+            border: 5px double red;
+            /* 
+                positioning properties:
+                    top, left, bottom, right
+            */
+            top: 20px;
+            right: 50px;
+            bottom: 20px;
+        }
+
+        .sticky {
+            position: sticky;
+            background-color: lightpink;
+            padding: 10px;
+            width: 200px;
+            /* 
+                positioning properties:
+                    top, left, bottom, right
+            */
+            bottom: 200px;
+            left: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>CSS Positioning Elements</h2>
+    
+    <div class="static">Static Position</div>
+
+    <div class="relative">Relative Position</div>
+
+    <div class="absolute">Absolute Position</div>
+
+    <div class="fixed">Fixed Position</div>
+
+    <div class="sticky">Sticky Position</div>
+
+    <br />
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque aspernatur ipsa dolores quae obcaecati pariatur, distinctio nostrum reprehenderit dolorum! Atque sequi ut, aliquid neque ipsa voluptatum. Magnam eaque ad est impedit mollitia ab voluptates reiciendis, dicta placeat nemo, tempora natus nesciunt minus, quibusdam accusamus quis ea ipsam temporibus quas maiores?</p>
+    
+</body>
+</html>

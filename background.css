@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Spicy+Rice&display=swap');
+
+.bg {
+    font-family: "Spicy Rice", serif;
+    background-color: #f2b6aa;
+
+    /* gradient background */
+    background: rgb(163,240,176);
+    background: linear-gradient(90deg, rgba(163,240,176,1) 0%, rgba(18,64,57,1) 20%, rgba(69,102,46,1) 40%, rgba(92,92,176,1) 49%, rgba(88,97,179,1) 61%, rgba(70,120,195,1) 74%, rgba(0,212,255,1) 100%);
+}
+
+/* background image
+background-image: url('sample-img.jpg') 
+background-image: url('website')
+
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+backgroun-attachment: fixed; 
+
+background: bg-color || bg-image || bg-position || bg-repeat ||bg-size || bg-attachment*/

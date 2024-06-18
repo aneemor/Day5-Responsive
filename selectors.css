@@ -1,0 +1,73 @@
+/* Element Selector */
+h1 {
+    color: maroon;
+}
+
+/* Universal Selector */
+* {
+    background-color: beige;
+    color: blue;
+}
+
+/* Class Selector */
+.class-selector {
+    color: rgb(124, 3, 94);
+}
+
+/* ID Attribute */
+#id-selector {
+    color: brown;
+}
+
+/* Attribute Selector */
+/* Targetting any element that has an [href] attribute */
+[href] {
+    color: orange;
+}
+
+/* Targetting an <a> with an [href] attribute */
+a[href] {
+    color: green;
+}
+
+/* Targetting elements with an [href] attribute that is exactly www.facebook.com */
+[href = 'www.facebook.com'] {
+    color: magenta;
+}
+
+a[href ='www.twitter.com'] {
+    color: violet;
+}
+
+/* Grouping Selector */
+/* h2, h3, h4 { 
+    font-size: 10px;
+} */
+
+h2, #grp-selector1, .grp-selector2 {
+    font-size: 10px;
+    background-color: mistyrose;
+}
+
+/* Pseudo-class */
+.pseudo-class:hover {
+    background-color: navy;
+    color: yellow;
+}
+
+.pseudo-class1:visited {
+    background-color: gray;
+}
+
+/* Pseudo-element */
+.pseudo-element::before {
+    content: "Placed before -";
+}
+
+.pseudo-element::after {
+    content: " - Placed after.";
+}
+
+.pseudo-element::first-letter {
+    color: red;
+}
