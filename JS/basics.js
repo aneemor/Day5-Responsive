@@ -9,5 +9,11 @@ let myName = "Romeena";
 const myAge = 36;
 
 // display in console
-console.log(nyName);
+console.log(myName);
 console.log(myAge);
+
+// editing let's value
+myName = "Anne";
+console.log(myName);
+
+// myAge = 30
